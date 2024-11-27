@@ -4,7 +4,7 @@ clf = pipeline(
     task = 'sentiment-analysis', 
     model = 'SkolkovoInstitute/russian_toxicity_classifier')
 
-text = ['У нас в есть убунты и текникал превью.',
-    	'Как минимум два малолетних дегенерата в треде, мда.']
+text = ['Я обожаю обезьян.',
+    	'абаюнда!.']
 
 print(clf(text))
