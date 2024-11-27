@@ -1,2 +1,3 @@
-import torch
-print(torch.cuda.is_available())
+from ultralytics import YOLO 
+
+model = YOLO('yolov8x.pt')
